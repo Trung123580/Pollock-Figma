@@ -1,0 +1,225 @@
+/* mobile */
+@media  (max-width : 46.1875em){
+    /* header */
+    #pollock{
+        /* overflow: hidden; */
+    }
+    nav{
+        display: none;
+        width: 100% ;
+         top: 6px;
+        left: 0px;
+        position: absolute;
+        background: rgb(72, 90, 184);
+        animation: menu .5s linear forwards;
+        z-index: 2;
+    }
+    @keyframes menu {
+        0%{
+            transform: translate(0, 0px);
+            opacity: 0;
+        }   
+        100%{
+            opacity: 1;
+            transform: translate(0, 60px);
+        }
+    }
+    
+    .heading{
+        padding-left: 5px;
+        justify-content: space-between;
+    }
+    .heading__right{
+        display: none;
+    }
+    nav > .heading__right{
+        justify-content: center;
+        margin: 10px 0 20px ;
+        flex-direction: row-reverse;
+    }
+    .heading__right > button{
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    .heading-nav{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 45px;
+    }
+    .nav-item > a{
+        font-size: 2rem;
+        display: inline-block;
+        width: 100%;
+        transition: .3s all;
+        color: var(--text-header);
+    }
+    .nav-item:last-child > a{
+        color: var(--text-color);
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .nav-item > a:hover {
+        background: var(--text-color);
+        color: var(--text-title);
+        /* background: transparent; */
+     }
+    .nav-bar{
+        font-size: 2.3rem;
+        color: var(--color-button-icon);
+        cursor: pointer;
+        transition: .3s all;
+        position: relative;
+        right: 10px;
+        top: 0px;
+        padding: 10px 0 10px 10px;
+    }
+    .nav-bar:hover{
+        opacity: .7;
+    }
+    .active{
+        display: none;
+    }
+
+    /* reviews */
+    .reviews-main{
+        /* padding-top: 70px; */
+        padding: 50px 10px;
+    }
+    .reviews-header {
+        font-size: 4.5rem;
+    }
+    .reviews-customer {
+        margin-bottom: 40px;
+    }
+    .reviews-content {
+        grid-template-columns: repeat(1 ,1fr);
+        margin-bottom: 70px;
+    }
+    .reviews-a{
+        display: flex;
+        justify-content: center;
+    }
+    .reviews-list {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .contact-content{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .contact-list{
+        padding: 55px 80px 64px;
+    }
+   /* .opinion */
+   .opinion{
+        padding: 50px 10px;
+   }
+   .opinion-content{
+        width: 100%;
+        scale: .9;
+        margin-top: 50px
+    }
+    /* .introduce */
+    .introduce{
+        padding: 60px 10px;
+    }
+    .introduce-desctiption{
+        margin: 20px 0 45px;
+    }
+    /* .development */
+    .development{
+        padding: 70px 10px;
+    }
+
+    .development-description{
+        margin: 20px 0 70px;
+    }
+    .development-content{
+        display: block;
+    }
+    .development-form{
+        padding: 0;
+    }
+    .form-btn{
+        margin-bottom: 60px;
+    }
+    .form-1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form-2 > input,
+    .form-1 > input{
+        width: 100%;
+    }
+    .form-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .development-video{
+        width: 100%;
+        left: 0;
+        height: 264px;
+    }
+    .txt-ps{
+        top: 68%;
+        left: 4%;
+    }
+    /* footer */
+    .footer-content{
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    .footer-list {
+        gap: 5px;
+    }
+    .footer-img{
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+      .footer-form{
+        flex-direction: column;
+    }
+    .footer-btn{
+        float: right;
+        clear: both;
+        padding: 7px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-email{
+        padding: 11px 18px;
+    }
+    
+    .copyright-main{
+        display: block;
+        padding: 0 10px;
+    }
+    .copyright-description{
+        text-align: center;
+
+    }
+    .copyright-icon{
+        justify-content: center;
+    }
+    /* about */
+    
+}
+
+/* table */
+@media  (min-width : 46.25em) and (max-width :  63.9375em){
+    
+}
+/* PC */
+@media  (min-width : 64em){
+    .nav-bar{
+        display: none;
+    }
+}
+
+/* mobile < 768 */
+/* 768 > 992 > 1024px table */
+/* pc 1200 pc */

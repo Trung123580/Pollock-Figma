@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Outfit:wght@400;500;600&display=swap');
+:root {
+    --text-header: #fff;
+    --text-title: #2D3958;
+    --text-color: #7B88A8;
+    --color-button-icon: #4F77FF;
+}
+/* transtion .3s */
+/* class dung` chung */
+/* trang blog */
+.title{
+    margin: 20px 0 28px;
+}
+.padding-0-30{
+    padding: 0 30px;
+}
