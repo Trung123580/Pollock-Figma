@@ -413,9 +413,10 @@ nav{
     box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
     /* padding: 30px 30px 35px 30px; */
     margin-bottom: 30px;
-    width: 440px;
-    height: 148px;
+    /* width: 440px; */
+    /* height: 148px; */
     transition: .5s;
+    padding: 30px 35px;
 }
 .about-service_list:nth-child(odd) {
     margin-left: 50px;
@@ -424,8 +425,8 @@ nav{
     transform: translate( -5px , -15px);
 }
 .service-item_ring{
-    height: 50px;
-    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
     border-radius: 50%;
     background: rgb(55, 124, 253,0.1);
     margin-right: 20px;
@@ -460,6 +461,7 @@ nav{
     line-height: 26px;
     font-weight: 400;
     font-family: DMsans;
+    /* max-width: 310px; */
     /* font-family: var(--font-Dmsan) */
 }
 .about-info {
@@ -586,10 +588,12 @@ nav{
     /* width: 50%; */
     /* height: 545px; */
     padding-bottom: 103px;
+    width: 100%;
 }
 .div{
-    display: block;
-    width: 230px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 .app-img_1{
     width: 230px;
